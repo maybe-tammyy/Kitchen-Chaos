@@ -1,0 +1,26 @@
+# Ignore everything at the project root...
+/*
+
+# ...except what Unity needs to rebuild the project
+!/.gitignore
+!/README.md
+!/Assets/
+!/Packages/
+!/ProjectSettings/
+
+# Junk that can still show up inside the kept folders
+.DS_Store
+Thumbs.db
+*.tmp
+*.private
+*.private.meta
+
+# Asset Store / Plastic SCM tooling
+/Assets/AssetStoreTools*
+/Assets/Plugins/PlasticSCM*
+
+# Build/crash reports Unity sometimes drops in Assets
+/Assets/StreamingAssets/aa.meta
+/Assets/StreamingAssets/aa/*
+sysinfo.txt
+crashlytics-build.properties
